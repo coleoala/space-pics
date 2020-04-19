@@ -3,19 +3,26 @@ import ImageFile from '../ImageFile';
 import VideoFile from '../VideoFile';
 
 
-const ImageDisplay = ({ imageData }) => {
-    
-    
-    return(
-        <div>
-            {imageData.map((data) => (
-                
-                data.media_type  === "image" ? <ImageFile data={data} /> : <VideoFile data={data} />
+class ImageDisplay extends React.Component {
 
-            ))}
+    render() {
+
+        return(
+
+            <div>
+
+                {this.props.imageData.map((data) => (
+                    
+                    data.media_type  === "image" ? <ImageFile data={data} getImage={this.props.getImage} /> : <VideoFile data={data} getImage={this.props.getImage} />
+                    
+                ))}
        
-        </div>
-    )
-}
+            </div>
+
+        );
+
+    };
+
+};
 
 export default ImageDisplay;

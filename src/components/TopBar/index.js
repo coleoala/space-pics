@@ -1,16 +1,12 @@
 import React from 'react';
-import refresh from '../../refresh.svg';
+import Logo from '../../logo.svg';
 
 class TopBar extends React.Component {
-
-    refresh = () => {
-        this.props.getImage();
-    };
 
     render() {
         return(
             <div className="topBar">
-            <button className="refreshButton" onClick = {this.refresh}><img src={refresh} alt="refresh icon"></img></button>
+            <img className="logo" src={Logo}/>
             <h1>Astronomy Images</h1>
           </div>
         )

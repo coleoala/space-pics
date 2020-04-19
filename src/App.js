@@ -27,8 +27,8 @@ class App extends React.Component {
     return(
       <div id="wrapper1">
         <div className="fullContentDiv">
-          <TopBar getImage={this.getImage}  />
-          <ImageDisplay imageData={this.state.imageData} />
+          <TopBar />
+          <ImageDisplay imageData={this.state.imageData} getImage={this.getImage} />
         </div>
         <div id="footerContainer">
           <Footer />

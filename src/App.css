@@ -31,7 +31,15 @@ h1, h2, h3 {
 }
 
 h1 {
-  margin: 14px 0px 14px 19px;
+  margin: 14px 0px 14px 0px;
+  position: relative;
+  top: 6px;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
 }
 
 h3 {
@@ -57,7 +65,8 @@ p {
   flex-wrap: nowrap;
   padding-left: 10vw;
   padding-right: 10vw;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .refreshButton {
@@ -119,6 +128,8 @@ p {
   color: #232946;
   border: none;
   border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .fullImageButton span {
@@ -145,7 +156,7 @@ p {
 }
 
 .footer {
-  background-color: #d4d8f0;
+  background-color: #959fce;
   height: 90px;
   width: 100%;
   display: flex;

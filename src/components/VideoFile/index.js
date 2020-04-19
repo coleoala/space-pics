@@ -1,5 +1,6 @@
 import React from 'react';
 import Video from '../../video.svg';
+import RefreshButton from '../RefreshButton';
 
 class VideoFile extends React.Component {
 
@@ -17,6 +18,7 @@ class VideoFile extends React.Component {
                         <h3>{ this.props.data.title }</h3>
                         <p className="explanation">{ this.props.data.explanation }</p>
                         <a className="fullImageButton" href={ this.props.data.url } target="blank"><img src={Video} className="iconInButton" alt="video player icon"></img><span>Watch Video</span></a>
+                        <RefreshButton getImage={this.props.getImage} />
                     </div>
                 </div>
 
