@@ -15,7 +15,6 @@ class App extends React.Component {
     .then(res => res.json())
     .then((data) => {
       this.setState({ imageData: data })
-      console.log(this.state.imageData)
     })
     .catch(console.log)
   }

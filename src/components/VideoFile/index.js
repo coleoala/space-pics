@@ -16,7 +16,7 @@ class VideoFile extends React.Component {
                     <div className="imageText">
                         <h3>{ this.props.data.title }</h3>
                         <p className="explanation">{ this.props.data.explanation }</p>
-                        <a className="fullImageButton" href={ this.props.data.hdurl } target="blank"><img src={Video} className="iconInButton" alt="video player icon"></img><span>Watch Video</span></a>
+                        <a className="fullImageButton" href={ this.props.data.url } target="blank"><img src={Video} className="iconInButton" alt="video player icon"></img><span>Watch Video</span></a>
                     </div>
                 </div>
 
