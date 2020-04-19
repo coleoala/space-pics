@@ -2,7 +2,7 @@
   "name": "space-pics",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://coleoala.github.io/space-pics/",
+  "homepage" : "https://github.com/coleoala/space-pics",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
