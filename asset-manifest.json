@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/space-pics/static/css/main.4278e55e.chunk.css",
-    "main.js": "/space-pics/static/js/main.27fdc035.chunk.js",
-    "main.js.map": "/space-pics/static/js/main.27fdc035.chunk.js.map",
+    "main.css": "/space-pics/static/css/main.e85b788d.chunk.css",
+    "main.js": "/space-pics/static/js/main.990a5422.chunk.js",
+    "main.js.map": "/space-pics/static/js/main.990a5422.chunk.js.map",
     "runtime-main.js": "/space-pics/static/js/runtime-main.1681ae16.js",
     "runtime-main.js.map": "/space-pics/static/js/runtime-main.1681ae16.js.map",
-    "static/js/2.ca31912d.chunk.js": "/space-pics/static/js/2.ca31912d.chunk.js",
-    "static/js/2.ca31912d.chunk.js.map": "/space-pics/static/js/2.ca31912d.chunk.js.map",
+    "static/js/2.fdde8c28.chunk.js": "/space-pics/static/js/2.fdde8c28.chunk.js",
+    "static/js/2.fdde8c28.chunk.js.map": "/space-pics/static/js/2.fdde8c28.chunk.js.map",
     "index.html": "/space-pics/index.html",
-    "precache-manifest.392285cd0b247cce3527089c8fd9fa5d.js": "/space-pics/precache-manifest.392285cd0b247cce3527089c8fd9fa5d.js",
+    "precache-manifest.e4367c5803a0d11b4c08d0591000332d.js": "/space-pics/precache-manifest.e4367c5803a0d11b4c08d0591000332d.js",
     "service-worker.js": "/space-pics/service-worker.js",
-    "static/css/main.4278e55e.chunk.css.map": "/space-pics/static/css/main.4278e55e.chunk.css.map",
-    "static/js/2.ca31912d.chunk.js.LICENSE.txt": "/space-pics/static/js/2.ca31912d.chunk.js.LICENSE.txt",
+    "static/css/main.e85b788d.chunk.css.map": "/space-pics/static/css/main.e85b788d.chunk.css.map",
+    "static/js/2.fdde8c28.chunk.js.LICENSE.txt": "/space-pics/static/js/2.fdde8c28.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/space-pics/static/media/logo.7e816199.svg",
     "static/media/photo.svg": "/space-pics/static/media/photo.b2f4c180.svg",
-    "static/media/refresh.svg": "/space-pics/static/media/refresh.7990ca49.svg",
+    "static/media/refresh.svg": "/space-pics/static/media/refresh.a3b829fd.svg",
     "static/media/stars.svg": "/space-pics/static/media/stars.2d63439e.svg",
     "static/media/video.svg": "/space-pics/static/media/video.12ff4969.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1681ae16.js",
-    "static/js/2.ca31912d.chunk.js",
-    "static/css/main.4278e55e.chunk.css",
-    "static/js/main.27fdc035.chunk.js"
+    "static/js/2.fdde8c28.chunk.js",
+    "static/css/main.e85b788d.chunk.css",
+    "static/js/main.990a5422.chunk.js"
   ]
 }
